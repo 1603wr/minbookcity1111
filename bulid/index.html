@@ -1,0 +1,7 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>Document</title><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/swiper-4.2.2.min.css"><script src="js/lib/require.js"></script><script>require(['js/main'], function() {
+            require(['index'])
+        })</script></head><body><div class="wrap"><div class="head"><em></em> <span>书城</span> <span>书架</span> <a href="./page/login.html"></a></div><section><div class="content"><div class="book-one"><div><div class="search-btn"><a href="page/search.html">输入书名/作者/关键字</a></div><div class="ban"></div></div></div><div class="book-two"><div class="search-btn"><a href="page/search.html">输入书名/作者/关键字</a> <span class="change-btn active"></span></div><div class="booktwobox"></div></div></div></section><footer></footer></div></body><script type="text/x-handlebars-template" class="text"><ul>
+        {{#each data}}
+        <li><img class="lazy" data-original="{{ad_pic_url}}"></li>
+        {{/each}}
+    </ul></script></html>

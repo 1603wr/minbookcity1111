@@ -1,0 +1,1 @@
+<div class="com-list">{{#each this}} {{#if @index}}<ol><li><span>0{{count}}</span>{{title}}</li></ol>{{else}}<dl><span>0{{count}}</span><dt><img class="lazy" data-original="{{cover}}" alt=""> <b>{{#fin finish}} {{this}} {{/fin}}</b></dt><dd><h1>{{title}}</h1><h2>{{authors}}</h2><p>{{summary}}</p><h3>{{#each tags}} <i>{{this}}</i> {{/each}}</h3></dd></dl>{{/if}} {{/each}}</div>

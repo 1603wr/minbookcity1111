@@ -1,0 +1,1 @@
+"use strict";define(["handlebars","jquery"],function(i,o){return function(e,r,t,n){var u=i.compile(e);i.registerHelper("fin",function(e){return e?"已完结":"连载中"}),i.registerHelper("textcount",function(e){return Math.round(e/1e4)}),i.registerHelper("gettime",function(e){return new Date(e).getHours()}),n?o(t).append(u(r)):o(t).html(u(r))}});
